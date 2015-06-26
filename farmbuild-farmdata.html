@@ -1,37 +1,82 @@
 <!DOCTYPE html>
 <html lang="en-us">
-  <head>
+<head>
     <meta charset="UTF-8">
-     
+
     <title>Farm Build Farm Data</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
     <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
-  </head>
-  <section class="page-header">
-      <img alt="@FarmBuild" class="avatar" height="100" itemprop="image" src="https://avatars2.githubusercontent.com/u/11933136?v=3&amp;s=200" width="100">
-      <h1 class="project-name">FarmBuild</h1>
-      <h2 class="project-tagline">A DEDJTR platform for the distribution of agriculture science webservices</h2>
-     <a href="http://bit.ly/1e4BRE7" class="btn">Register your interest </a>
-    </section>
-<section class="main-content">
-  <p><b>Farm Build Farm Data</b></p>
-  
-  <p>The FarmBuild components, including the web services and the Javascript based API sample code, deal with a common view of a farm comprising one or more paddocks and these paddocks optionally grouped into paddock groups. The farm itself and the paddocks are each represented by a polygon, along with a name, area and possibly other information. There are a number of examples of farm data blocks in the FarmBuild GitHub repositories, such as <a href="https://github.com/FarmBuild/farmbuild-farmdata/blob/master/examples/susan-farm-final-example.json">this one.</a></p>
-  <p>Although each component is built to be stand alone, it is expected that two or more of the components may be used together to support a number of steps in a user process.  For example, you may wish to have a farmer first draw their farm and it's paddocks and then use the soil area service to determine the soil types by area within the farm and each of the paddocks.</p>
-  <p>To facilitate the integration of the various components, a standard data model of a farm has been developed as part of FarmBuild, to serve as the shared block of data to be created, used by and passed between the components.  This farm data block is passed into web services or loaded into the Javascript APIs, the farm data is parsed and used by the service or API and any data generated is added into the farm data block, before it is passed back from the web service or exported out of the API.</p>
-  <p>Although this farm data block has been designed to meet the needs of the FarmBuild components in the first instance, it is hoped that in the future, it will be used to integrate with other software components and services, being extended as required.  The diagram below illustrates how the farm datra block may be created by and used in the farmBuiold and potentially third party software components</p>
-  <img alt="Example farm data block flow between FarmBuild components" src="images/farmdata/Farm_Data_Block_Flow_example.png">
-  <p>Details of the farm data block and it&apos;s associated Javascript API can be found in the <a href="https://github.com/FarmBuild/farmbuild-farmdata">FarmBuild Farm Data GitHub repository</a> and it&apos;s <a href="https://github.com/FarmBuild/farmbuild-farmdata/wiki">wiki</a></p>
-  <p>Where relevant, each of the FarmBuild components documents how it makes use of the farm data block - what it requires as an input and what it writes in to the data block as it&apos;s output.  The FarmBuild web mapping component enables new farm data blocks to be created, exported and saved.</p>
-  <p>The farm data block is a JSON (Javascript Object Notation) structure, making it easy to use in Javascript but also now the defacto standard for use with REST web services.  The farm data block makes use of the GeoJSON standard for storing spatial features.  Although the farm data block itself is not GeoJSON (since it needs to hold a wider range of data than spatial), the farm and paddock entities contain a "geometry" element which is standard geoJSON.  This makes it easy to transform the farm data block into GeoJSON, although doing so necessarily discards some of the farm data which is not directly related to the farm and paddock features.  The FarmBuild web mapping component includes buttons to export the farm data block to GeoJSON and to KML</p>
-  <p>Note that it is not intended that third party software applications which use FarmBuild components will store data in the farm data block structure persistently.  It is more likely they will store the farmer&apos;s data in a custom set of database tables and transform this data into and out of the farm data block structure as they call FarmBuild components</p> 
-  <p>&nbsp;</p>
-  <p><a href="http://farmbuild.github.io/farmbuild">Back to FarmBuild</a></p>
-  <footer class="site-footer">
-	<span class="site-footer-owner"><a href="http://farmbuild.github.io/farmbuild/">farmbuild</a> is maintained by <a href="http://economicdevelopment.vic.gov.au/">DEDJTR</a>.</span>
+</head>
+<section class="page-header">
+    <img alt="@FarmBuild" class="avatar" height="100" itemprop="image"
+         src="https://avatars2.githubusercontent.com/u/11933136?v=3&amp;s=200" width="100">
 
-	<span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the <a href="https://github.com/jasonlong/cayman-theme">Cayman theme</a> by <a href="https://twitter.com/jasonlong">Jason Long</a>.</span></footer>
-  </section>
+    <h1 class="project-name">FarmBuild</h1>
+
+    <h2 class="project-tagline">A DEDJTR platform for the distribution of agriculture science webservices</h2>
+    <a href="http://bit.ly/1e4BRE7" class="btn">Register your interest </a>
+</section>
+<section class="main-content">
+    <p><b>Farm Build Farm Data</b></p>
+
+    <p>The FarmBuild components, including the web services and the Javascript based API sample code, deal with a common
+        view of a farm comprising one or more paddocks and these paddocks optionally grouped into paddock groups. The
+        farm itself and the paddocks are each represented by a polygon, along with a name, area and possibly other
+        information. There are a number of examples of farm data blocks in the FarmBuild GitHub repositories, such as <a
+                href="https://github.com/FarmBuild/farmbuild-farmdata/blob/master/examples/susan-farm-final-example.json">this
+            one.</a></p>
+
+    <p>Although each component is built to be stand alone, it is expected that two or more of the components may be used
+        together to support a number of steps in a user process. For example, you may wish to have a farmer first draw
+        their farm and it's paddocks and then use the soil area service to determine the soil types by area within the
+        farm and each of the paddocks.</p>
+
+    <p>To facilitate the integration of the various components, a standard data model of a farm has been developed as
+        part of FarmBuild, to serve as the shared block of data to be created, used by and passed between the
+        components. This farm data block is passed into web services or loaded into the Javascript APIs, the farm data
+        is parsed and used by the service or API and any data generated is added into the farm data block, before it is
+        passed back from the web service or exported out of the API.</p>
+
+    <p>Although this farm data block has been designed to meet the needs of the FarmBuild components in the first
+        instance, it is hoped that in the future, it will be used to integrate with other software components and
+        services, being extended as required. The diagram below illustrates how the farm data block may be created by
+        and used in the farmBuild and potentially third party software components</p>
+    <img alt="Example farm data block flow between FarmBuild components"
+         src="images/farmdata/Farm_Data_Block_Flow_example.png">
+
+    <p>Details of the farm data block and it&apos;s associated Javascript API can be found in the <a
+            href="https://github.com/FarmBuild/farmbuild-farmdata">FarmBuild Farm Data GitHub repository</a> and it&apos;s
+        <a href="https://github.com/FarmBuild/farmbuild-farmdata/wiki">wiki</a></p>
+
+    <p>Where relevant, each of the FarmBuild components documents how it makes use of the farm data block - what it
+        requires as an input and what it writes in to the data block as it&apos;s output. The FarmBuild web mapping
+        component enables new farm data blocks to be created, exported and saved.</p>
+
+    <p>The farm data block is a JSON (Javascript Object Notation) structure, making it easy to use in Javascript but
+        also now the defacto standard for use with REST web services. The farm data block makes use of the GeoJSON
+        standard for storing spatial features. Although the farm data block itself is not GeoJSON (since it needs to
+        hold a wider range of data than spatial), the farm and paddock entities contain a "geometry" element which is
+        standard geoJSON. This makes it easy to transform the farm data block into GeoJSON, although doing so
+        necessarily discards some of the farm data which is not directly related to the farm and paddock features. The
+        FarmBuild web mapping component includes buttons to export the farm data block to GeoJSON and to KML</p>
+
+    <p>Note that it is not intended that third party software applications which use FarmBuild components will store
+        data in the farm data block structure persistently. It is more likely they will store the farmer&apos;s data in
+        a custom set of database tables and transform this data into and out of the farm data block structure as they
+        call FarmBuild components</p>
+
+    <p>&nbsp;</p>
+
+    <p><a href="http://farmbuild.github.io/farmbuild">Back to FarmBuild</a></p>
+    <footer class="site-footer">
+        <span class="site-footer-owner"><a
+                href="http://farmbuild.github.io/farmbuild/">farmbuild</a> is maintained by <a
+                href="http://economicdevelopment.vic.gov.au/">DEDJTR</a>.</span>
+
+        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the <a
+                href="https://github.com/jasonlong/cayman-theme">Cayman theme</a> by <a
+                href="https://twitter.com/jasonlong">Jason Long</a>.</span></footer>
+</section>
