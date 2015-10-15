@@ -8,7 +8,7 @@ Each FarmBuild component is accompanied by a series of example which demonstrate
 These examples are meant to be for demonstration purpose only. You can look at source codes to get an idea how to use FarmBuild components in your project.<br/>
 Also you are welcome to use them as a base for your projects.
 
-Specifically they include:
+FarmBuild components include:
 
 - **FarmBuild Core** <br/>
 FarmBuild Core provides Common functionalities used in FarmBuild components.<br/>
