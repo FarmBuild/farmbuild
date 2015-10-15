@@ -32,3 +32,17 @@ To further support nutrient management on-farm a soil import API javascript libr
  To understand more about Web Mapping please visit following links:<br/>
  Git Repo: <a href="https://github.com/FarmBuild/farmbuild-soil-sample-importer" target="_blank"> https://github.com/FarmBuild/farmbuild-soil-sample-importer</a><br/>
  API doc: <a href="https://rawgit.com/FarmBuild/farmbuild-soil-sample-importer/master/docs/farmbuild-soil-sample-importer/1.0.0/index.html" target="_blank">https://rawgit.com/FarmBuild/farmbuild-soil-sample-importer/master/docs/farmbuild-soil-sample-importer/1.0.0/index.html</a>
+
+- **Web service API’s and associated data sources**<br/>
+The web services and associated data sources will be served off DEDJTR infrastructure. The web services are available to access from the GitHub ‘FarmBuild’ account. They will be provided with an agreed service level and will include:
+
+  Web Feature Services<br/>
+  - Soils of the Goulburn Murray Irrigation Region
+  - Victorian Rural Parcel Agricultural Land Use
+
+  Soil Information Services
+  - Soils Area Calculation Services<br/>
+    This service will return calculated areas of soil types in the Goulburn Murray Irrigation Region for a defined area (ie. Farm or paddock boundary)
+
+  Prototype soil data web service<br/>
+  A prototype service is being offered for access to a snapshot of the Victorian Soil Information System data through the ANZSoilML standard.
