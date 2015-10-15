@@ -38,15 +38,15 @@ The web services and associated data sources will be served off DEDJTR infrastru
 You can find an example of how you can access these web services by going through examples found in the Web Services Demo github repository.<br/>
 https://github.com/FarmBuild/farmbuild-web-services-demo
 
-Web services include:
+  Web services include:
 
-  - Web Feature Services<br/>
-    - Soils of the Goulburn Murray Irrigation Region
-    - Victorian Rural Parcel Agricultural Land Use
-
-  - Soil Information Services
-    - Soils Area Calculation Services<br/>
-      This service will return calculated areas of soil types in the Goulburn Murray Irrigation Region for a defined area (ie. Farm or paddock boundary)
-
-    - Prototype soil data web service<br/>
-    A prototype service is being offered for access to a snapshot of the Victorian Soil Information System data through the ANZSoilML standard.
+    - Web Feature Services<br/>
+      - Soils of the Goulburn Murray Irrigation Region
+      - Victorian Rural Parcel Agricultural Land Use
+  
+    - Soil Information Services
+      - Soils Area Calculation Services<br/>
+        This service will return calculated areas of soil types in the Goulburn Murray Irrigation Region for a defined area (ie. Farm or paddock boundary)
+  
+      - Prototype soil data web service<br/>
+      A prototype service is being offered for access to a snapshot of the Victorian Soil Information System data through the ANZSoilML standard.
