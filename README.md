@@ -4,7 +4,7 @@ The FarmBuild services are composed of an initial series of web service and open
 - **FarmBuild Core** <br/>
 FarmBuild Core provides Common functionalities used in FarmBuild components.<br/>
 These functionalities include google analytic, collection api and validation module. It is primarily used as an internal dependency in higher level components such as: Dairy Nutrient Calculator, Web Mapping and FarmData.<br/>
-Some of its apis, like google analytics, are exposed as part higher level components api.<br/>
+Some of its apis, like google analytics, are exposed as part higher level components' api.<br/>
  To understand more about FarmBuild Core please visit following links:<br/>
  Git Repo: <a href="https://github.com/FarmBuild/farmbuild-core" target="_blank"> https://github.com/FarmBuild/farmbuild-core</a><br/>
  API doc: <a href="https://rawgit.com/FarmBuild/farmbuild-core/master/docs/farmbuild-core/1.0.41/index.html" target="_blank"> https://rawgit.com/FarmBuild/farmbuild-core/master/docs/farmbuild-core/1.0.41/index.html</a>
