@@ -11,6 +11,8 @@ http://farmbuild.github.io/farmbuild/farmbuild_registration.html
 Each FarmBuild component is accompanied by a series of examples which demonstrate ways to consume services and APIs. These examples are meant to be for demonstration purpose only. You can look at source codes to get an idea how to use FarmBuild components in your project.<br/>
 Also you are welcome to use them as a base for your projects.
 
+----------
+
 FarmBuild components include:
 
 - **FarmBuild Core** <br/>
