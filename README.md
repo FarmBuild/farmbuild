@@ -8,7 +8,7 @@ To register please visit FarmBuild main website at:<br/>
 http://farmbuild.github.io/farmbuild/farmbuild_registration.html
 
 **Repositories structure**<br/>
-Going through FarmBuild components, all components have a standard project structure which is inspired by JavaScript community conventions. To briefly describe the project structure, it includes:
+Going through FarmBuild components, you will find out all components have a standard project structure which is inspired by JavaScript community conventions. To briefly describe the project structure, it includes:
  - "src" folder, containes all the source files. Distribution version of the apis are generated from the source via a build process.
  - "dist" folder, contains the production ready version of the libs that you can use in other applications.
  - "docs" folder, contains api documentaion of the component.
