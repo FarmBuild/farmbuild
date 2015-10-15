@@ -9,11 +9,11 @@ http://farmbuild.github.io/farmbuild/farmbuild_registration.html
 
 **Repositories structure**<br/>
 Going through FarmBuild components, you will find out all components have a standard project structure which is inspired by JavaScript community conventions. To briefly describe the project structure, it includes:
- - "src" folder, containes all the source files. Distribution version of the apis are generated from the source via a build process.
- - "dist" folder, contains the production ready version of the libs that you can use in other applications.
- - "docs" folder, contains api documentaion of the component.
- - "lib" folder, contains external libraries used in the component.
- - "examples" folder, contains a series of example pages to demonstrate component's api usage. Examples are created using AngularJS JavaScript library, which is describe in the tech stack of this document.
+ - "src" folder: containes all the source files. Distribution version of the apis are generated from the source via a build process.
+ - "dist" folder: contains the production ready version of the libs that you can use in other applications.
+ - "docs" folder: contains api documentaion of the component.
+ - "lib" folder: contains external libraries used in the component.
+ - "examples" folder: contains a series of example pages to demonstrate component's api usage. Examples are created using AngularJS JavaScript library, which is describe in the tech stack of this document.
   
  
  At the root level of the project you will find a bunch files. Some of them are concerned with the project's build proccess and project's development. The one that needs your attention is the LICENSE file which describes the condition under which you may use FarmBuild components. So please carefully read it before you start using FarmBuild.
