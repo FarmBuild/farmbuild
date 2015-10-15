@@ -13,10 +13,10 @@ Going through FarmBuild components, you will find out all components have a stan
  - "dist" folder: contains the production ready version of the libs that you can use in other applications.
  - "docs" folder: contains api documentaion of the component.
  - "lib" folder: contains external libraries used in the component.
- - "examples" folder: contains a series of example pages to demonstrate component's api usage. Examples are created using AngularJS JavaScript library, which is describe in the tech stack of this document.
+ - "examples" folder: contains a series of example pages to demonstrate component's api usage. Examples are created using AngularJS JavaScript library, which is describe in the "technology stack" section of this document.
   
  
- At the root level of the project you will find a bunch files. Some of them are concerned with the project's build proccess and project's development. The one that needs your attention is the LICENSE file which describes the condition under which you may use FarmBuild components. So please carefully read it before you start using FarmBuild.
+At the root level of the project you will find a bunch files. Some of them are concerned with the project's build proccess and project's development. The one that needs your attention is the LICENSE file which describes the condition under which you may use FarmBuild components. So please carefully read it before you start using FarmBuild.
 
 
 **Examples and Demonstarion pages**<br/>
