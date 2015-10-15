@@ -34,7 +34,11 @@ To further support nutrient management on-farm a soil import API javascript libr
  API doc: <a href="https://rawgit.com/FarmBuild/farmbuild-soil-sample-importer/master/docs/farmbuild-soil-sample-importer/1.0.0/index.html" target="_blank">https://rawgit.com/FarmBuild/farmbuild-soil-sample-importer/master/docs/farmbuild-soil-sample-importer/1.0.0/index.html</a>
 
 - **Web service API’s and associated data sources**<br/>
-The web services and associated data sources will be served off DEDJTR infrastructure. The web services are available to access from the GitHub ‘FarmBuild’ account. They will be provided with an agreed service level and will include:
+The web services and associated data sources will be served off DEDJTR infrastructure. The web services are available to access from the GitHub ‘FarmBuild’ account. They will be provided with an agreed service level, but the source code is not availabe.<br/>
+You can find an example of how you can access these web services by going through examples found in the Web Services Demo github repository.<br/>
+https://github.com/FarmBuild/farmbuild-web-services-demo
+
+Web services include:
 
   - Web Feature Services<br/>
     - Soils of the Goulburn Murray Irrigation Region
