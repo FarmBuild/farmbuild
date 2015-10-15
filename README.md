@@ -7,6 +7,15 @@ At the same time DEDJTR strongly advises users to register their interest in usi
 To register please visit FarmBuild main website at:<br/>
 http://farmbuild.github.io/farmbuild/farmbuild_registration.html
 
+**Repositories structure**<br/>
+Going through FarmBuild components, all components have a standard project structure which is inspired by JavaScript community conventions. To briefly describe the project structure, it includes:
+ - "src" folder, containes all the source files. Distribution version of the apis are generated from the source via a build process.
+ - "dist" folder, contains the production ready version of the libs that you can use in other applications.
+ - "docs" folder, contains api documentaion of the component.
+ - "lib" folder, contains external libraries used in the component.
+ - "examples" folder, contains a series of example pages to demonstrate component's api usage. Examples are created using AngularJS JavaScript library, which is describe in the tech stack of this document.
+
+
 **Examples and Demonstarion pages**<br/>
 Each FarmBuild component is accompanied by a series of examples which demonstrate ways to consume services and APIs. These examples are meant to be for demonstration purpose only. You can look at source codes to get an idea how to use FarmBuild components in your project.<br/>
 Also you are welcome to use them as a base for your projects.
