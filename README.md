@@ -3,7 +3,7 @@ The FarmBuild services are composed of an initial series of web service and open
 
 **Registration**<br/>
 Except for the Web service API’s and associated data sources which registration is mandatory in order to get 'CLIENT ID' and a CLIENT SECRET', other APIs are open source and can be accessed through github.<br/>
-DEDJTR strongly advises users to register their interest in using FarmBuild components in order for DEDJTR to provide better support and planning for future releases.<br/>
+At the same time DEDJTR strongly advises users to register their interest in using FarmBuild components in order for DEDJTR to provide better support and planning for future releases.<br/>
 To register please visit FarmBuild main website at:<br/>
 http://farmbuild.github.io/farmbuild/farmbuild_registration.html
 
