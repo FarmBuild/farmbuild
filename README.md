@@ -20,3 +20,9 @@ Web Mapping is an open source farm mapping API javascript library. A demonstrati
  To understand more about Web Mapping please visit following links:<br/>
  Git Repo: <a href="https://github.com/FarmBuild/farmbuild-web-mapping" target="_blank"> https://github.com/FarmBuild/farmbuild-web-mapping</a><br/>
  API doc: <a href="https://rawgit.com/FarmBuild/farmbuild-web-mapping/master/docs/farmbuild-web-mapping/1.1.0/index.html" target="_blank">https://rawgit.com/FarmBuild/farmbuild-web-mapping/master/docs/farmbuild-web-mapping/1.1.0/index.html</a>
+
+- **Dairy Nutrient Calculator** <br/>
+This javaScript library can be used to model nutrient flow in and out of a dairy farms. Since Australian dairy farms generally import larger quantities of nutrients than they export, knowing the nutrient balance of a farm gives farmers the potential to save money.<br/>
+ To understand more about Web Mapping please visit following links:<br/>
+ Git Repo: <a href="https://github.com/FarmBuild/farmbuild-dairy-nutrient-calculator" target="_blank"> https://github.com/FarmBuild/farmbuild-dairy-nutrient-calculator</a><br/>
+ API doc: <a href="https://rawgit.com/FarmBuild/farmbuild-dairy-nutrient-calculator/master/docs/farmbuild-dairy-nutrient-calculator/1.0.0/index.html" target="_blank">https://rawgit.com/FarmBuild/farmbuild-dairy-nutrient-calculator/master/docs/farmbuild-dairy-nutrient-calculator/1.0.0/index.html</a>
