@@ -94,5 +94,9 @@ https://github.com/FarmBuild/farmbuild-web-services-demo
       
 
 **<a name="technology-stack">Technology Stack</a>**<br/>
-FarmBuild components are using a range of diffrent client-side and server-side technologies to provide required functionalities.
-On the client-side FarmBuild is using AngularJS framework to provide a modular architecture and have good separation between different modules. As result of this all JS APIs are available as AngularJS modules. Having said that you are not forced to use AngularJS framework in your application to use FarmBuild JS APIs. In other word all JS APIs are available through farmbuild global name space. (`farmbuild.webmapping`)<br/>
+FarmBuild components are using a range of diffrent client-side and server-side technologies to provide required functionalities.<br/>
+On the client-side FarmBuild is using AngularJS framework to provide a modular architecture and have good separation between different modules. As result of this all JS APIs are available as AngularJS modules.<br/>
+Having said that you are not forced to use AngularJS framework in your application to use FarmBuild JS APIs. In other word all JS APIs are available through farmbuild global name space. (`farmbuild.webmapping`)<br/>
+FarmBuild is using AngularJS in examples and that you can take advantage of those examples if you use AngularJS as your client-side technology.
+
+Apart from 
