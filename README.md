@@ -99,7 +99,7 @@ On the client-side FarmBuild is using AngularJS framework to provide a modular a
 Having said that you are not forced to use AngularJS framework in your application to use FarmBuild JS APIs. In other word all JS APIs are available through farmbuild global name space. (`farmbuild.webmapping`)<br/>
 FarmBuild is using AngularJS in examples and that you can take advantage of those examples if you use AngularJS as your client-side technology.
 
-Apart from AngularJS, FarmBuild is using OpenLayers 3 and Turf.js JS libraries in Web Mapping component to provide vector editing tools. For user to be able to effectively make use of Web Mapping in other applications, they need to have good understanding of OpenLayers 3.<br/>
+Apart from AngularJS, FarmBuild is using OpenLayers 3 and Turf.js JS libraries in Web Mapping component to provide vector editing tools. For users to be able to effectively make use of Web Mapping in other applications, they need to have good understanding of OpenLayers 3.<br/>
 To read more on these libraries please visit to following links:<br/>
-     - <a href="http://openlayers.org/">OpenLayers: http://openlayers.org/</a><br/>
-     - <a href="http://turfjs.org/">TURF: http://turfjs.org/</a>
+- <a href="http://openlayers.org/">OpenLayers: http://openlayers.org/</a><br/>
+- <a href="http://turfjs.org/">TURF: http://turfjs.org/</a>
