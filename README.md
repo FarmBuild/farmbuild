@@ -95,8 +95,15 @@ https://github.com/FarmBuild/farmbuild-web-services-demo
 
 **<a name="technology-stack">Technology Stack</a>**<br/>
 FarmBuild components are using a range of diffrent client-side and server-side technologies to provide required functionalities.<br/>
-On the client-side FarmBuild is using AngularJS framework to provide a modular architecture and have good separation between different modules. As result of this all JS APIs are available as AngularJS modules.<br/>
-Having said that you are not forced to use AngularJS framework in your application to use FarmBuild JS APIs. In other word all JS APIs are available through farmbuild global name space. (`farmbuild.webmapping`)<br/>
+On the client-side FarmBuild is using AngularJS framework to provide a modular architecture and have good separation between different modules. <br/>
+
+AngularJS is a structural framework for dynamic web apps. It lets you use HTML as your template language and lets you extend HTML's syntax to express your application's components clearly and succinctly. Angular's data binding and dependency injection eliminate much of the code you would otherwise have to write.<br/>
+To read more about AngularJS please visit the following links:<br/>
+- <a href="https://docs.angularjs.org">https://docs.angularjs.org</a>
+
+As result of this all JS APIs are available as AngularJS modules.<br/>
+Having said that you are not forced to use AngularJS framework in your application to use FarmBuild JS APIs. 
+In other word all JS APIs are available through farmbuild global name space. (`farmbuild.webmapping`) and in the case of Diary Nutrient Calculator in addition to AngularJS examples there are a full series are examples availble which use JQuery to demonstrate API usage.<br/>
 FarmBuild is using AngularJS in examples and that you can take advantage of those examples if you use AngularJS as your client-side technology.
 
 Apart from AngularJS, FarmBuild is using OpenLayers 3 and Turf.js JS libraries in Web Mapping component to provide vector editing tools. For users to be able to effectively make use of Web Mapping in other applications, they need to have good understanding of OpenLayers 3.<br/>
