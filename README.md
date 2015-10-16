@@ -11,6 +11,7 @@ The FarmBuild services are composed of an initial series of web service and open
      - [Dairy Nutrient Calculator](#dairy-nutrient-calculator)
      - [Soil Sample Importer](#soil-sample-importer)
      - [Web service API’s and associated data sources](web-service)
+  - [Technology stack](#technology-stack)
 
 
 **<a name="registration">Registration</a>**<br/>
@@ -90,3 +91,8 @@ https://github.com/FarmBuild/farmbuild-web-services-demo
   
       - Prototype soil data web service<br/>
       A prototype service is being offered for access to a snapshot of the Victorian Soil Information System data through the ANZSoilML standard.
+      
+
+**<a name="technology-stack">Technology Stack</a>**<br/>
+FarmBuild components are using a range of diffrent client-side and server-side technologies to provide required functionalities.
+On the client-side FarmBuild is using AngularJS framework to provide a modular architecture and have good separation between different modules. As result of this all JS APIs are available as AngularJS modules. Having said that you are not forced to use AngularJS framework in your application to use FarmBuild JS APIs. In other word all JS APIs are available through farmbuild global name space. (`farmbuild.webmapping`)<br/>
