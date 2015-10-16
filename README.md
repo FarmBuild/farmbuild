@@ -96,7 +96,7 @@ To read more about AngularJS please visit the following links:<br/>
 - <a href="https://docs.angularjs.org">https://docs.angularjs.org</a>
 
 All of the Farmbuild Javascript APIs are available as AngularJS modules.<br/>
-You are hoever <b>not</b> forced to use the AngularJS framework in your application in order to use the FarmBuild APIs. 
+You are however <b>not</b> forced to use the AngularJS framework in your application in order to use the FarmBuild APIs. 
 The Farmbuild Javascript APIs are also available via the farmbuild global name space. (eg `farmbuild.webmapping`) and in the case of Diary Nutrient Calculator in addition to AngularJS examples there are a full series are examples available which use JQuery to demonstrate API usage.<br/>
 
 Apart from AngularJS, FarmBuild also uses the OpenLayers3 and Turf.js Javascript libraries in the Web Mapping component to provide map display and vector editing tools. For developers to be able to effectively make use of the Web Mapping component in their applications, they will need to have a good understanding of OpenLayers3.<br/>
