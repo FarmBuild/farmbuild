@@ -38,9 +38,8 @@ If you believe there are issues in any part of APIs or you need specific type of
 Each FarmBuild component is accompanied by a series of examples which demonstrate ways to consume services and APIs. These examples are meant to be for demonstration purpose only. You can look at source codes to get an idea how to use FarmBuild components in your project.<br/>
 Also you are welcome to use them as a base for your projects.
 
-----------
 
-<a name="farmBuild-components">FarmBuild components</a> include:
+**<a name="farmBuild-components">FarmBuild components</a>** include:
 
 - **<a name="farmBuild-core">FarmBuild Core</a>** <br/>
 FarmBuild Core provides Common functionalities used in FarmBuild components.<br/>
