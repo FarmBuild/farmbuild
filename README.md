@@ -1,6 +1,8 @@
 # FarmBuild
 The FarmBuild services are composed of an initial series of web service and open source code API’s developed by DEDJTR for consumption in third party systems.<br/>
 
+[Examples vs API](#Examples vs API)
+
 **Registration**<br/>
 Except for the Web service API’s and associated data sources which registration is mandatory in order to get 'CLIENT ID' and a CLIENT SECRET', other APIs are open source and can be accessed through github.<br/>
 At the same time DEDJTR strongly advises users to register their interest in using FarmBuild components in order for DEDJTR to provide better support and planning for future releases.<br/>
