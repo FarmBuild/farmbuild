@@ -1,7 +1,7 @@
 # FarmBuild
 The FarmBuild services are composed of an initial series of web service and open source code API’s developed by DEDJTR for consumption in third party systems.<br/>
 
-[Registration](#Registration)
+[Examples vs API](#api-vs-examples)
 
 **Registration**<br/>
 Except for the Web service API’s and associated data sources which registration is mandatory in order to get 'CLIENT ID' and a CLIENT SECRET', other APIs are open source and can be accessed through github.<br/>
@@ -21,7 +21,7 @@ Going through FarmBuild components, you will find out all components have a stan
 At the root level of the project you will find a bunch files. Some of them are concerned with the project's build proccess and project's development. The one that needs your attention is the LICENSE file which describes the condition under which you may use FarmBuild components. So please carefully read it before you start using FarmBuild.
 
 
-**Examples vs API**<br/>
+**<a name="api-vs-examples"/>Examples vs API</a>**<br/>
 We often use API and Example terms while describing different components.
 To clarify further APIs are meant to be the main delivery on FarmBuild components. It is expected that you as a third party company/software developer will read through API docs and find the proper API to support your desired user story. APIs are not meant to be altered third parties.<br/>
 If you believe there are issues in any part of APIs or you need specific type of functionality which is nice to addd to the APIs, please report that through github "issues" which you will find in each repository. FarmBuild team will respond to the issues and you will be able to track the proccess via the issues section.<br/>
