@@ -26,14 +26,14 @@ Going through the FarmBuild components, you will see that all components have a 
  - "dist" folder: contains the production ready version of the API libraries that you can use in your applications.
  - "docs" folder: contains API documentation of the component.
  - "lib" folder: contains external libraries used in the component.
- - "examples" folder: contains a series of example pages to demonstrate how to use the component's API. Examples have mainly been created using AngularJS JavaScript library, which is describe in the "technology stack" section of this document, althugh a JQuery example is also provided for the Nutrient Calculator component.
+ - "examples" folder: contains a series of example pages to demonstrate how to use the component's API. Examples have mainly been created using AngularJS JavaScript library, which is described in the "Technology Stack" section of this document, althugh a JQuery example is also provided for the Nutrient Calculator component.
   
  
 At the root level of the project you will find a bunch of files. Some of them are concerned with the project's build proccess and the project's development. One that requires your careful attention is the LICENSE file which describes the conditions under which you may use FarmBuild components. Please read it carefully before you start using FarmBuild.
 
 
 **<a name="api-vs-examples"/>Examples vs API</a>**<br/>
-We often use the terms API and Example when describing the different components.
+We often use the terms API and Example when describing different components.
 To clarify further, APIs are the main delivery of the FarmBuild components. It is expected that you as a third party software developer will read through API docs and find the proper API to support your desired use. APIs are not meant to be altered by third parties unless in the future you wish to work with DEDJTR to extend the API.<br/>
 If you believe there are issues with any part of the APIs or you need a specific type of functionality which is nice to addd to the APIs, please report that through the GitHub "Issues" page which you will find in each repository. The FarmBuild team will respond to the issues.<br/>
 Each FarmBuild component is accompanied by a series of examples which demonstrate how you can to consume web services and call the APIs. These examples are meant to be for demonstration purposes only ie they do not deliver working applications, although you may choose to use the example code as a "kick starter". You can look at example source code to get an idea of how to use FarmBuild components in your project.<br/>
