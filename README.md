@@ -47,6 +47,9 @@ Each FarmBuild component is accompanied by a series of examples which demonstrat
 
 ## FarmBuild components include:
 
+FarmBuild documentations can be found:
+<img src="http://farmbuild.github.io/farmbuild/images/farmbuild-project-documentations.png"></img>
+
 ### FarmBuild Core
 FarmBuild Core provides Common functions used in other FarmBuild components.<br/>
 These functions include Google Analytics integration and the collection API and validation module. It is primarily an internal dependency in higher level components such as Dairy Nutrient Calculator, Web Mapping and FarmData.<br/>
