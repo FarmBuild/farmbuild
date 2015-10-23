@@ -1,6 +1,14 @@
 # FarmBuild Developer Guide
 The FarmBuild services are composed of a set of web service and open source code APIs developed by DEDJTR for use in third party agricultural software systems.<br/>
 
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+
+
+- [Table of Contents](#table-of-contents)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 ##### Table of Contents
   - [Registration](#registration)<br/>
   - [Repositories Structure](#repositories-structure)<br/>
