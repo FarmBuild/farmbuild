@@ -5,18 +5,18 @@ The FarmBuild services are composed of a set of web service and open source code
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 **Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
 
-- [FarmBuild Developer Guide](#farmbuild-developer-guide)
-  - [Registration](#registration)
-  - [GitHub Repository Structure](#github-repository-structure)
-  - [Examples vs API](#examples-vs-api)
-  - [FarmBuild components include:](#farmbuild-components-include)
-    - [FarmBuild Core](#farmbuild-core)
-    - [FarmData](#farmdata)
-    - [Web Mapping](#web-mapping)
-    - [Dairy Nutrient Calculator](#dairy-nutrient-calculator)
-    - [Soil Sample Importer](#soil-sample-importer)
-    - [Web Service APIs and associated data sources](#web-service-apis-and-associated-data-sources)
-  - [Technology Stack](#technology-stack)
+- [Registration](#registration)
+- [GitHub Repository Structure](#github-repository-structure)
+- [Where can I find documentations?](#where-can-i-find-documentations)
+- [Examples vs API](#examples-vs-api)
+- [FarmBuild components include:](#farmbuild-components-include)
+  - [FarmBuild Core](#farmbuild-core)
+  - [FarmData](#farmdata)
+  - [Web Mapping](#web-mapping)
+  - [Dairy Nutrient Calculator](#dairy-nutrient-calculator)
+  - [Soil Sample Importer](#soil-sample-importer)
+  - [Web Service APIs and associated data sources](#web-service-apis-and-associated-data-sources)
+- [Technology Stack](#technology-stack)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
