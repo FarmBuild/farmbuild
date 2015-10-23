@@ -3,32 +3,31 @@ The FarmBuild services are composed of a set of web service and open source code
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
 
-
-- [Table of Contents](#table-of-contents)
+- [FarmBuild Developer Guide](#farmbuild-developer-guide)
+  - [Registration](#registration)
+  - [GitHub Repository Structure](#github-repository-structure)
+  - [Examples vs API](#examples-vs-api)
+  - [FarmBuild components include:](#farmbuild-components-include)
+    - [FarmBuild Core](#farmbuild-core)
+    - [FarmData](#farmdata)
+    - [Web Mapping](#web-mapping)
+    - [Dairy Nutrient Calculator](#dairy-nutrient-calculator)
+    - [Soil Sample Importer](#soil-sample-importer)
+    - [Web Service APIs and associated data sources](#web-service-apis-and-associated-data-sources)
+  - [Technology Stack](#technology-stack)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
-##### Table of Contents
-  - [Registration](#registration)<br/>
-  - [Repositories Structure](#repositories-structure)<br/>
-  - [Examples vs API](#api-vs-examples)<br/>
-  - [FarmBuild Components](#farmBuild-components)
-     - [FarmBuild Core](#farmBuild-core)
-     - [Web Mapping](#web-mapping)
-     - [Dairy Nutrient Calculator](#dairy-nutrient-calculator)
-     - [Soil Sample Importer](#soil-sample-importer)
-     - [Web service API’s and associated data sources](web-service)
-  - [Technology stack](#technology-stack)
 
-
-**<a name="registration">Registration</a>**<br/>
+## Registration
 The FarmBuild APIs are open source and can be accessed through GitHub.  The Web services and associated data sources are published from a DEDJTR server and registration is required to use these.<br/>
 DEDJTR requests that all users to register their interest in using FarmBuild components to enable DEDJTR to provide better support and planning for future releases.<br/>
 To register please visit FarmBuild main website at:<br/>
 http://farmbuild.github.io/farmbuild/farmbuild_registration.html
 
-**<a name="repositories-structure">GitHub Repository Structure</a>**<br/>
+## GitHub Repository Structure
 Going through the FarmBuild components, you will see that all components have a standard project structure, inspired by JavaScript community conventions. To briefly describe the project structure, it includes:
  - "src" folder: contains all source files. The distribution (ie compiled) version of the APIs are generated from the source via a build process.
  - "dist" folder: contains the production ready version of the API libraries that you can use in your applications.
@@ -40,15 +39,15 @@ Going through the FarmBuild components, you will see that all components have a 
 At the root level of the project you will find a bunch of files. Some of them are concerned with the project's build proccess and the project's development. One that requires your careful attention is the LICENSE file which describes the conditions under which you may use FarmBuild components. Please read it carefully before you start using FarmBuild.
 
 
-**<a name="api-vs-examples"/>Examples vs API</a>**<br/>
+## Examples vs API
 We often use the terms API and Example when describing different components.
 To clarify further, APIs are the main delivery of the FarmBuild components. It is expected that you as a third party software developer will read through API docs and find the proper API to support your desired use. APIs are not meant to be altered by third parties unless in the future you wish to work with DEDJTR to extend the API.<br/>
 If you believe there are issues with any part of the APIs or you need a specific type of functionality which is nice to addd to the APIs, please report that through the GitHub "Issues" page which you will find in each repository. The FarmBuild team will respond to the issues.<br/>
 Each FarmBuild component is accompanied by a series of examples which demonstrate how you can to consume web services and call the APIs. These examples are meant to be for demonstration purposes only ie they do not deliver working applications, although you may choose to use the example code as a "kick starter". You can look at example source code to get an idea of how to use FarmBuild components in your project.<br/>
 
-**<a name="farmBuild-components">FarmBuild components</a>** include:
+## FarmBuild components include:
 
-- **<a name="farmBuild-core">FarmBuild Core</a>** <br/>
+### FarmBuild Core
 FarmBuild Core provides Common functions used in other FarmBuild components.<br/>
 These functions include Google Analytics integration and the collection API and validation module. It is primarily an internal dependency in higher level components such as Dairy Nutrient Calculator, Web Mapping and FarmData.<br/>
 Some of its APIs, such as Google Analytics, are exposed as part of the higher level components' API.<br/>
@@ -56,31 +55,31 @@ Some of its APIs, such as Google Analytics, are exposed as part of the higher le
  Git Repo: <a href="https://github.com/FarmBuild/farmbuild-core" target="_blank"> https://github.com/FarmBuild/farmbuild-core</a><br/>
  API doc: <a href="https://rawgit.com/FarmBuild/farmbuild-core/master/docs/farmbuild-core/1.0.41/index.html" target="_blank"> https://rawgit.com/FarmBuild/farmbuild-core/master/docs/farmbuild-core/1.0.41/index.html</a>
 
-- **<a name="farmData">FarmData</a>** <br/>
+### FarmData
  To facilitate the exchange of information between FarmBuild applications and other on-line environments a standard farm data block has been established which stores all data used and generated by the FarmBuild applications within a simple JSON structure.<br/>
  To understand more about FarmData please visit following links:<br/>
  Git Repo: <a href="https://github.com/FarmBuild/farmbuild-farmdata" target="_blank">https://github.com/FarmBuild/farmbuild-farmdata</a><br/>
  API doc: <a href="https://rawgit.com/FarmBuild/farmbuild-farmdata/master/docs/farmbuild-farmdata/1.1.4" target="_blank">https://rawgit.com/FarmBuild/farmbuild-farmdata/master/docs/farmbuild-farmdata/1.1.4/index.html</a>
 
-- **<a name="web-mapping">Web Mapping</a>** <br/>
+### Web Mapping
 Web Mapping is an open source farm mapping API javascript library. A demonstration page is provided as part of the examples in the web mapping repository which shows how users or developers can map and access spatial farm data for applications both within FarmBuild API's and their own environment.<br/>
  To understand more about Web Mapping please visit following links:<br/>
  Git Repo: <a href="https://github.com/FarmBuild/farmbuild-web-mapping" target="_blank"> https://github.com/FarmBuild/farmbuild-web-mapping</a><br/>
  API doc: <a href="https://rawgit.com/FarmBuild/farmbuild-web-mapping/master/docs/farmbuild-web-mapping/1.1.0/index.html" target="_blank">https://rawgit.com/FarmBuild/farmbuild-web-mapping/master/docs/farmbuild-web-mapping/1.1.0/index.html</a>
 
-- **<a name="dairy-nutrient-calculator">Dairy Nutrient Calculator</a>** <br/>
+### Dairy Nutrient Calculator
 This JavaScript library can be used to model nutrient flow in and out of a dairy farm. Since Australian dairy farms generally import larger quantities of nutrients than they export, knowing the nutrient balance of a farm gives farmers the potential to improve the efficiency of their operations and potentially save money.<br/>
  To understand more about Web Mapping please visit following links:<br/>
  Git Repo: <a href="https://github.com/FarmBuild/farmbuild-dairy-nutrient-calculator" target="_blank"> https://github.com/FarmBuild/farmbuild-dairy-nutrient-calculator</a><br/>
  API doc: <a href="https://rawgit.com/FarmBuild/farmbuild-dairy-nutrient-calculator/master/docs/farmbuild-dairy-nutrient-calculator/1.0.0/index.html" target="_blank">https://rawgit.com/FarmBuild/farmbuild-dairy-nutrient-calculator/master/docs/farmbuild-dairy-nutrient-calculator/1.0.0/index.html</a>
 
-- **<a name="soil-sample-importer">Soil Sample Importer</a>** <br/>
+### Soil Sample Importer
 To further support nutrient management on-farm, a soil import API Javascript library and demonstration page has been developed to enable the import, linking and nutrient status classification of soil test data to the farm paddock structure, such as is generated by the web mapping component.<br/>
  To understand more about Soil Sample Importer please visit following links:<br/>
  Git Repo: <a href="https://github.com/FarmBuild/farmbuild-soil-sample-importer" target="_blank"> https://github.com/FarmBuild/farmbuild-soil-sample-importer</a><br/>
  API doc: <a href="https://rawgit.com/FarmBuild/farmbuild-soil-sample-importer/master/docs/farmbuild-soil-sample-importer/1.0.0/index.html" target="_blank">https://rawgit.com/FarmBuild/farmbuild-soil-sample-importer/master/docs/farmbuild-soil-sample-importer/1.0.0/index.html</a>
 
-- **<a name="web-service">Web Service APIs and associated data sources</a>**<br/>
+### Web Service APIs and associated data sources
 The web services and associated data sources are published from a DEDJTR server. The web services are available to access from the GitHub ‘FarmBuild’ account. They are provided with an agreed service level, but the source code is not published.<br/>
 You can find an example of how to access these web services by going through examples found in the Web Services Demo GitHub repository.<br/>
 https://github.com/FarmBuild/farmbuild-web-services-demo
@@ -95,7 +94,7 @@ https://github.com/FarmBuild/farmbuild-web-services-demo
       - Soils Area Calculation Services<br/>
         This service will return calculated areas of soil types in the Goulburn Murray Irrigation Region for a defined area (ie. Farm or paddock boundary)
   
-**<a name="technology-stack">Technology Stack</a>**<br/>
+## Technology Stack
 The FarmBuild components use a range of client-side and server-side technologies.<br/>
 On the client-side, the FarmBuild APIs use the AngularJS framework to provide a modular architecture and to enable good separation between different modules. <br/>
 
