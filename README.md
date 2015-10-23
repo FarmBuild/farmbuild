@@ -38,6 +38,8 @@ Going through the FarmBuild components, you will see that all components have a 
  
 At the root level of the project you will find a bunch of files. Some of them are concerned with the project's build proccess and the project's development. One that requires your careful attention is the LICENSE file which describes the conditions under which you may use FarmBuild components. Please read it carefully before you start using FarmBuild.
 
+## Where can I find documentations?
+<img src="http://farmbuild.github.io/farmbuild/images/farmbuild-project-documentations.png"></img>
 
 ## Examples vs API
 We often use the terms API and Example when describing different components.
@@ -46,9 +48,6 @@ If you believe there are issues with any part of the APIs or you need a specific
 Each FarmBuild component is accompanied by a series of examples which demonstrate how you can to consume web services and call the APIs. These examples are meant to be for demonstration purposes only ie they do not deliver working applications, although you may choose to use the example code as a "kick starter". You can look at example source code to get an idea of how to use FarmBuild components in your project.<br/>
 
 ## FarmBuild components include:
-
-FarmBuild documentations can be found:
-<img src="http://farmbuild.github.io/farmbuild/images/farmbuild-project-documentations.png"></img>
 
 ### FarmBuild Core
 FarmBuild Core provides Common functions used in other FarmBuild components.<br/>
