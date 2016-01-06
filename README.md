@@ -42,9 +42,9 @@ At the root level of the project you will find a bunch of files. Some of them ar
 <img src="http://farmbuild.github.io/farmbuild/images/farmbuild-project-documentations.png"></img>
 
 ## Examples vs API
-We often use the terms API and Example when describing different components.
+We often use terms API and Example when describing different components.
 To clarify further, APIs are the main delivery of the FarmBuild components. It is expected that you as a third party software developer will read through API docs and find the proper API to support your desired use. APIs are not meant to be altered by third parties unless in the future you wish to work with DEDJTR to extend the API.<br/>
-If you believe there are issues with any part of the APIs or you need a specific type of functionality which is nice to addd to the APIs, please report that through the GitHub "Issues" page which you will find in each repository. The FarmBuild team will respond to the issues.<br/>
+If you believe there are issues with any part of the APIs or you need a specific type of functionality which is nice to add to the APIs, please report that through the GitHub "Issues" page which you will find in each repository. The FarmBuild team will respond to the issues.<br/>
 Each FarmBuild component is accompanied by a series of examples which demonstrate how you can to consume web services and call the APIs. These examples are meant to be for demonstration purposes only ie they do not deliver working applications, although you may choose to use the example code as a "kick starter". You can look at example source code to get an idea of how to use FarmBuild components in your project.<br/>
 
 ## FarmBuild components include:
