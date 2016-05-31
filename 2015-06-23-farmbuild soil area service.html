@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8">
      
-    <title>Farm Build Whole Farm Dairy Nutrient Calculator</title>
+    <title>FarmBuild Soil Area Calculation Service</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
@@ -13,47 +13,48 @@
    <section class="page-header">
       <img alt="@FarmBuild" class="avatar" height="100" itemprop="image" src="https://avatars2.githubusercontent.com/u/11933136?v=3&amp;s=200" width="100">
       <h1 class="project-name">FarmBuild</h1>
-      <h2 class="project-tagline">A DEDJTR platform for the distribution of agriculture science webservices</h2>
-     <a href="farmbuild_registration.html" class="btn">Registration</a>
-	 <a href="http://questionpro.com/t/AIIY0ZSnlB" class="btn">Register your Interest</a>
+      <h2 class="project-tagline">Soil Area Calculation Service</h2>
+     <a href="farmbuild_registration.html" class="btn">Register for FarmBuild</a>
+	 <a href="http://questionpro.com/t/AIIY0ZSnlB" class="btn">I am interested in FarmBuild</a>
   </section>
 <section class="main-content">
-  <p><b>Farm Build Soil Area Service </b></p>
+  <p><b>FarmBuild Soil Area Calculation Service </b></p>
   
-  <p>This is the 'Soil Area Service' module of farmbuild javaScript library. <a href="https://github.com/FarmBuild/farmbuild-soil-sample-importer">GITHUB Repo</a></p>
-  <p>The 'Soil Area Service' is a web service that can be integrated into new or existing platforms.</p>
+  <p>This is the 'Soil Area Calculation Service' of FarmBuild's JavaScript library. <a href="https://github.com/FarmBuild/farmbuild-soil-sample-importer">GITHUB Repo</a></p>
+  <p>The 'Soil Area Calculation Service' is a web service that can be integrated into new or existing platforms.</p>
   <p>The 'Soil Area Service' is a web service that returns the spatial intersection of the farmdatablock(farm boundry and paddocks) to the GMID Soil's data. </p>
   <p>The GMID Soils dataset is also available as a <a href="http://farmbuild.github.io/farmbuild/2015-06-11-farmbuild%20soil%20wfs.html">WFS service</a>. You can find more information on the soil surveys conducted in the GMID (Goulburn Murray Irrigation District) region on the <a href="http://vro.depi.vic.gov.au/dpi/vro/gbbregn.nsf/pages/soil_survey">VRO website</a>.</p>
   <p>The Soil Area Service requires a valid OAuth2 protocol Token (<a href="https://rawgit.com/FarmBuild/farmbuild-web-services-demo/master/examples/angularjs/farmbuild-oauth/index.html">authentication</a>) in order to connect to the FarmBuild Identity service.  
   <p><br>
     <img src="images/auth/authentication.JPG" width="1088" height="450" style="border:1px solid black"></p>
   <p>&nbsp;</p>
-  <p>The process to obtain successful Authentication to the Soil Area service is...</p>
+  <p>The process to obtain successful authentication to the Soil Area service is to:</p>
   <ul>
-    <li>Register with Farmbuild </li>
-    <li>Keep your successful registration email in a safe place. It contains the &quot;CLIENT ID&quot; and the &quot;CLIENT SECRET&quot;. These are required for application Authentication.</li>
-    <li>The FarmBuild <a href="https://rawgit.com/FarmBuild/farmbuild-web-services-demo/master/examples/angularjs/farmbuild-oauth/index.html">Authentication</a> sample demonstrates the required data including the &quot;CLIENT ID&quot; and the &quot;CLIENT SECRET&quot; from registration process, to generate the client token.    </li>
+    <li>Register for Farmbuild </li>
+    <li>Keep your successful registration email in a safe place. It contains the &quot;CLIENT ID&quot; and the &quot;CLIENT SECRET&quot;. These are required for application authentication.</li>
+    <li>The FarmBuild <a href="https://rawgit.com/FarmBuild/farmbuild-web-services-demo/master/examples/angularjs/farmbuild-oauth/index.html">authentication</a> sample demonstrates the required 
+	data including the &quot;CLIENT ID&quot; and the &quot;CLIENT SECRET&quot; from registration process, to generate the client token.    </li>
   </ul>
-  <p>The Soil Area Service Sample includes the ability to...</p>
+  <p>The Soil Area Calculation Service sample includes the ability to:</p>
   <ul>
-    <li>Authenticate with OAuth using the client token. </li>
-    <li>Load a farmdatablock.json file (Can be generated from the <a href="https://github.com/FarmBuild/farmbuild-web-mapping">Farmbuild Web Mapping</a> module sample) </li>
+    <li>authenticate with OAuth using the client token. </li>
+    <li>Load a farmdatablock.json file (can be generated from the <a href="https://github.com/FarmBuild/farmbuild-web-mapping">FarmBuild Web Mapping</a> module sample) </li>
     <li>Return Farm Boundary Area Intersection of <a href="http://farmbuild.github.io/farmbuild/2015-06-11-farmbuild%20soil%20wfs.html">GMID soil</a> types(<a href="https://github.com/FarmBuild/farmbuild-web-services-demo">Soils &amp; Rural Parcel WFS</a>).  </li>
     <li>Return Farm Paddocks Area Intersection of GMID soil types </li>
   </ul>
   <p>&nbsp;</p>
   <p><img src="images/soil_area/soil_area_json_result.JPG" alt="Sample Classification" width="806" height="420" style="border:1px solid black"></p>
   <p>&nbsp;</p>
-  <p>The Soil Area Service has been designed to write the soil description, and farm paddock data into a specified JSON structure called the '<a href="https://github.com/FarmBuild/farmbuild-farmdata">Farm Data Block</a>'.</p>
-  <p>Through the JSON structure, the JSON exports are interoperable with the other farmbuild modules. <br>
+  <p>The Soil Area Calculation Service has been designed to write the soil description, and farm paddock data into a specified JSON structure called the '<a href="https://github.com/FarmBuild/farmbuild-farmdata">Farm Data Block</a>'.</p>
+  <p>Through the JSON structure, the JSON exports are interoperable with the other FarmBuild modules. <br>
   </p>
-  <p><a href="http://farmbuild.github.io/farmbuild">back to FarmBuild</a></p>
+  <p><a href="http://farmbuild.github.io/farmbuild">Back to FarmBuild</a></p>
   <p><a href="https://twitter.com/share" class="twitter-share-button" data-text="Farmbuild">Tweet</a>
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script><script src="https://apis.google.com/js/platform.js" async defer></script><script src="//platform.linkedin.com/in.js" type="text/javascript"> lang: en_US</script>
 <script type="IN/Share" data-url="http://farmbuild.github.io/farmbuild/" data-counter="right"></script>
   <g:plusone></g:plusone></p>
   <footer class="site-footer">
-	<span class="site-footer-owner"><a href="http://farmbuild.github.io/farmbuild/">farmbuild</a> is maintained by <a href="http://economicdevelopment.vic.gov.au/">DEDJTR</a>.</span>
+	<span class="site-footer-owner"><a href="http://farmbuild.github.io/farmbuild/">FarmBuild</a> is maintained by <a href="http://economicdevelopment.vic.gov.au/">DEDJTR</a>.</span>
 
 	<span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the <a href="https://github.com/jasonlong/cayman-theme">Cayman theme</a> by <a href="https://twitter.com/jasonlong">Jason Long</a>.</span></footer>
   </section>
