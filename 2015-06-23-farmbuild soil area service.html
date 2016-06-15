@@ -18,37 +18,37 @@
 	 <a href="http://questionpro.com/t/AIIY0ZSnlB" class="btn">I am interested in FarmBuild</a>
   </section>
 <section class="main-content">
-  <p><b>FarmBuild Soil Area Calculation Service </b></p>
-  
-  <p>This is the 'Soil Area Calculation Service' of FarmBuild's JavaScript library. <a href="https://github.com/FarmBuild/farmbuild-soil-sample-importer">GITHUB Repo</a></p>
-  <p>The 'Soil Area Calculation Service' is a web service that can be integrated into new or existing platforms.</p>
-  <p>The 'Soil Area Service' is a web service that returns the spatial intersection of the farmdatablock(farm boundry and paddocks) to the GMID Soil's data. </p>
-  <p>The GMID Soils dataset is also available as a <a href="http://farmbuild.github.io/farmbuild/2015-06-11-farmbuild%20soil%20wfs.html">WFS service</a>. You can find more information on the soil surveys conducted in the GMID (Goulburn Murray Irrigation District) region on the <a href="http://vro.depi.vic.gov.au/dpi/vro/gbbregn.nsf/pages/soil_survey">VRO website</a>.</p>
-  <p>The Soil Area Service requires a valid OAuth2 protocol Token (<a href="https://rawgit.com/FarmBuild/farmbuild-web-services-demo/master/examples/angularjs/farmbuild-oauth/index.html">authentication</a>) in order to connect to the FarmBuild Identity service.  
-  <p><br>
-    <img src="images/auth/authentication.JPG" width="1088" height="450" style="border:1px solid black"></p>
-  <p>&nbsp;</p>
-  <p>The process to obtain successful authentication to the Soil Area service is to:</p>
+   
+  <p>The Soil Area Calculation Service of FarmBuild's JavaScript library is available through the <a href="https://github.com/FarmBuild/farmbuild-soil-sample-importer">GITHUB Repository</a>.</p>
+  <p>The Soil Area Calculation Service is a web service that returns the spatial intersection of the <a href="farmbuild-farmdata.html">Farm Data Block</a> (farm boundry and paddocks as defined by the user) with the soil survey information
+  currently known for the Goulburn Murray Irrigation District (GMID).  It can be integrated into new or existing platforms.</p>
+ 
+  <p>The Soils of the GMID dataset is also available as a <a href="http://farmbuild.github.io/farmbuild/2015-06-11-farmbuild%20soil%20wfs.html">web feature service</a>. You can find more 
+  information on the soil surveys conducted in the GMID region on <a href="http://vro.depi.vic.gov.au/dpi/vro/gbbregn.nsf/pages/soil_survey">Victorian Resources Online</a>.</p>
+  <p>The Soil Area Calculation Service requires a valid OAuth2 protocol Token (<a href="https://rawgit.com/FarmBuild/farmbuild-web-services-demo/master/examples/angularjs/farmbuild-oauth/index.html">authentication</a>) in order to connect to the FarmBuild Identity service. 
+  The process to obtain successful authentication to the Soil Area Calculation Service is to:</p>
   <ul>
-    <li>Register for Farmbuild </li>
+    <li>Register for Farmbuild.</li>
     <li>Keep your successful registration email in a safe place. It contains the &quot;CLIENT ID&quot; and the &quot;CLIENT SECRET&quot;. These are required for application authentication.</li>
     <li>The FarmBuild <a href="https://rawgit.com/FarmBuild/farmbuild-web-services-demo/master/examples/angularjs/farmbuild-oauth/index.html">authentication</a> sample demonstrates the required 
 	data including the &quot;CLIENT ID&quot; and the &quot;CLIENT SECRET&quot; from registration process, to generate the client token.    </li>
   </ul>
+    <img src="images/auth/authentication.JPG" width="1088" height="450" style="border:1px solid black"></p>
+  <p>&nbsp;</p>
+ 
   <p>The Soil Area Calculation Service sample includes the ability to:</p>
   <ul>
-    <li>authenticate with OAuth using the client token. </li>
-    <li>Load a farmdatablock.json file (can be generated from the <a href="https://github.com/FarmBuild/farmbuild-web-mapping">FarmBuild Web Mapping</a> module sample) </li>
-    <li>Return Farm Boundary Area Intersection of <a href="http://farmbuild.github.io/farmbuild/2015-06-11-farmbuild%20soil%20wfs.html">GMID soil</a> types(<a href="https://github.com/FarmBuild/farmbuild-web-services-demo">Soils &amp; Rural Parcel WFS</a>).  </li>
-    <li>Return Farm Paddocks Area Intersection of GMID soil types </li>
+    <li>authenticate with OAuth using the client token</li>
+    <li>load a farmdatablock.json file (can be generated from the <a href="https://github.com/FarmBuild/farmbuild-web-mapping">FarmBuild Web Mapping</a> component sample)</li>
+    <li>return Farm Paddocks Area Intersection of GMID soil types </li>
   </ul>
   <p>&nbsp;</p>
   <p><img src="images/soil_area/soil_area_json_result.JPG" alt="Sample Classification" width="806" height="420" style="border:1px solid black"></p>
   <p>&nbsp;</p>
-  <p>The Soil Area Calculation Service has been designed to write the soil description, and farm paddock data into a specified JSON structure called the '<a href="https://github.com/FarmBuild/farmbuild-farmdata">Farm Data Block</a>'.</p>
-  <p>Through the JSON structure, the JSON exports are interoperable with the other FarmBuild modules. <br>
+  <p>The Soil Area Calculation Service has been designed to write the soil description, and farm paddock data into a specified JSON structure called the <a href="https://github.com/FarmBuild/farmbuild-farmdata">Farm Data Block</a>.
+  Through the JSON structure, the JSON exports are interoperable with the other FarmBuild components. <br>
   </p>
-  <p><a href="http://farmbuild.github.io/farmbuild">Back to FarmBuild</a></p>
+  <p>Back to <a href="http://farmbuild.github.io/farmbuild">FarmBuild</a></p>
   <p><a href="https://twitter.com/share" class="twitter-share-button" data-text="Farmbuild">Tweet</a>
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script><script src="https://apis.google.com/js/platform.js" async defer></script><script src="//platform.linkedin.com/in.js" type="text/javascript"> lang: en_US</script>
 <script type="IN/Share" data-url="http://farmbuild.github.io/farmbuild/" data-counter="right"></script>
