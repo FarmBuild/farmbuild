@@ -25,7 +25,7 @@
 <section class="main-content">
     <p><b>FarmBuild Farm Data</b></p>
 
-    <p>The FarmBuild components, including the web services and the Javascript based API sample code, deal with a common
+    <p>The FarmBuild components, including the web services and the JavaScript based API sample code, deal with a common
         view of a farm comprising one or more paddocks and these paddocks optionally grouped into paddock groups. The
         farm itself and the paddocks are each represented by a polygon, along with a name, area and possibly other
         information. There are a number of examples of Farm Data Blocks in the FarmBuild GitHub repositories, such as <a
@@ -50,15 +50,15 @@
     <img alt="Example farm data block flow between FarmBuild components"
          src="images/farmdata/Farm_Data_Block_Flow_example.png">
 
-    <p>Details of the Farm Data Block and it&apos;s associated Javascript API can be found in the <a
-            href="https://github.com/FarmBuild/farmbuild-farmdata">FarmBuild Farm Data GitHub repository</a> and it&apos;s
+    <p>Details of the Farm Data Block and its associated JavaScript API can be found in the <a
+            href="https://github.com/FarmBuild/farmbuild-farmdata">FarmBuild Farm Data GitHub repository</a> and its
         <a href="https://github.com/FarmBuild/farmbuild-farmdata/wiki">wiki.</a></p>
 
     <p>Where relevant, each of the FarmBuild components documents how it makes use of the Farm Data Block - what it
-        requires as an input and what it writes in to the data block as it&apos;s output. The FarmBuild web mapping
+        requires as an input and what it writes in to the data block as its output. The FarmBuild web mapping
         component enables new Farm Data Blocks to be created, exported and saved.</p>
 
-    <p>The Farm Data Block is a JSON (Javascript Object Notation) structure, making it easy to use in Javascript but
+    <p>The Farm Data Block is a JSON (JavaScript Object Notation) structure, making it easy to use in JavaScript but
         also now the defacto standard for use with REST web services. The Farm Data Block makes use of the GeoJSON
         standard for storing spatial features. Although the Farm Data Block itself is not GeoJSON (since it needs to
         hold a wider range of data than spatial), the farm and paddock entities contain a "geometry" element that is
